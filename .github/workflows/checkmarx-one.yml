@@ -45,7 +45,7 @@ jobs:
         CX_APIKEY: ${{ secrets.CX_ONE_API_KEY }}
       with:
         command: "web"
-        config: 'TW.yaml'
+        config: 'DAST-Security_Tweets-1/TW.yaml'
         base_url: "http://testhtml5.vulnweb.com/"
         environment_id: "3ded6a5d-7684-45d8-9159-e445d374b70b"
         verbose: true
