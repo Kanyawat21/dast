@@ -46,7 +46,7 @@ jobs:
       with:
         command: "web"
         config: 'DAST-Security_Tweets-1/TW.yaml'
-        base_url: "http://testhtml5.vulnweb.com/"
+        base_url: "http://testhtml5.vulnweb.com"
         environment_id: "3ded6a5d-7684-45d8-9159-e445d374b70b"
         verbose: true
     - uses: actions/upload-artifact@v3
