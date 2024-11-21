@@ -12,7 +12,7 @@ env:
         method: "form"
         parameters:
           loginPageUrl: "http://testhtml5.vulnweb.com/#/popular"
-          loginRequestUrl: "http://testhtml5.vulnweb.com/login"
+          #loginRequestUrl: "http://testhtml5.vulnweb.com/login"
           loginRequestBody: "username={%username%}&password={%password%}"
         verification:
           method: "response"
